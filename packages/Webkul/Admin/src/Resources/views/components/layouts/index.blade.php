@@ -75,7 +75,7 @@
     @endif
 
     @php
-        $brandColor = core()->getConfigData('general.settings.menu_color.brand_color') ?? '#0E90D9';
+        $brandColor = core()->getConfigData('general.settings.menu_color.brand_color') ?? '#FF3300';
     @endphp
 
     @stack('styles')

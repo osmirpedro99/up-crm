@@ -176,7 +176,7 @@ return [
                 'name'    => 'brand_color',
                 'title'   => 'admin::app.configuration.index.general.settings.menu-color.brand-color',
                 'type'    => 'color',
-                'default' => '#0E90D9',
+                'default' => '#FF3300',
             ],
         ],
     ], [
