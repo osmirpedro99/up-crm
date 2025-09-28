@@ -33,3 +33,7 @@ node_modules/
 /test-results/
 /blob-report/
 /playwright/.cache/
+
+/redis-data
+/mysql-data
+setup.sh
