@@ -32,6 +32,7 @@ We handle all the technical complexity—including **hosting, security, and back
 -   **For MariaDB users**: 10.2.7 or Higher.
 -   **Node**: 8.11.3 LTS or higher.
 -   **Composer**: 2.5 or higher
+-   **Docker**: 24 or higher
 
 ### Installation and Configuration
 
