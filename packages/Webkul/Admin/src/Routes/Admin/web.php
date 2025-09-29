@@ -49,3 +49,8 @@ require 'configuration-routes.php';
  * Rest routes.
  */
 require 'rest-routes.php';
+
+/** 
+ * Chat routes. 
+ */
+require 'chat-upperfy-routes.php';
