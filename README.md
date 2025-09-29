@@ -1,10 +1,6 @@
 <p align="center">
 <a href="https://upperfy.com.br"><img src="https://upperfy.com.br/wp-content/uploads/2024/09/Logotipos-DVG-7-1024x1024.png" height="150px;"></a>
 </p>
-<p align="center">
-<a href="https://packagist.org/packages/krayin/laravel-crm"><img src="https://poser.pugx.org/krayin/laravel-crm/license.svg" alt="License"></a>
-</p>
-
 
 <p align="center">
 <img src="./image.png" height="500px;" style="border-radius:10px;">
@@ -21,10 +17,9 @@
 
 ### Introduction
 
-Plataforma de CRM de Código Aberto para o Seu Negócio
-O  Upper crm é a sua solução completa e gerenciada de CRM. Baseado no sólido framework Laravel (Krayin CRM), oferecemos uma plataforma robusta de Código Aberto (Open Source) com a flexibilidade do modelo Multi-Tenant.
+**Upper CRM** is a derivative work licensed under the **Open Software License (OSL v. 3.0)**. The core source code is made available free of charge under the terms of this license.
 
-Nós cuidamos da complexidade técnica (hospedagem, segurança, backups) para que você e sua equipe possam focar apenas em construir relacionamentos com seus clientes.
+We handle all the technical complexity—including **hosting, security, and backups**—so you and your team can focus entirely on building and managing customer relationships.
 
 **Free & Opensource Laravel CRM solution for SMEs and Enterprises for complete customer lifecycle management.**
 
@@ -70,10 +65,14 @@ email:admin@example.com
 password:admin123
 ```
 
-### License
+### 📜 License and Attribution
 
-Upperfy CRM is a fully open-source CRM framework which will always be free under the [MIT License](https://github.com/krayin/laravel-crm/blob/2.1/LICENSE).
+This source code is a derivative work licensed under the **Open Software License (OSL v. 3.0)**. 
+
+For complete details regarding the copyright attribution and legal terms, please refer to the [`NOTICE.txt`](NOTICE.txt) and [`LICENSE`](LICENSE) files located in the root directory of this repository.
 
 ### Security Vulnerabilities
 
 Please don't disclose security vulnerabilities publicly. If you find any security vulnerability in Upperfy CRM then please email us: contato@upperfy.com.br.
+
+

@@ -1,20 +1,39 @@
-MIT License
+Open Software License (OSL 3.0)
+-------------------------------
 
-Copyright 2010-2025, Webkul Software
+This Open Software License (the "License") is a license governing
+use and distribution of software. The Licensed Work is (a) the
+Original Work, and (b) any Derivative Works. The Original Work is the
+software program described in the file containing this License.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is furnished
-to do so, subject to the following conditions:
+1. Definitions.
+a) "Commercial Distribution" means distribution for commercial gain or
+    public display of the Licensed Work on a commercial web site
+    (unless that web site is purely promotional, having no interactive
+    capabilities for commerce and the like).
+b) "Derivative Works" shall mean only those additions to or changes to
+    the Original Work which are based upon or incorporate the Original
+    Work and which are fixed in any tangible medium of expression and
+    which do not qualify as Original Work.
+c) "Distribute" means to communicate, display, publish, or provide a
+    copy of the Licensed Work to any other party. This includes
+    External Deployment.
+d) "External Deployment" means the use of the Licensed Work in a
+    commercial setting where the Licensed Work is accessed by other
+    parties over the Internet or a similar network.
+e) "Licensee" means a person or entity that receives the Licensed Work
+    from a Licensor.
+f) "Licensor" means a person or entity that Distributes the Licensed
+    Work.
+g) "Original Work" means the software program or work described in the
+    file containing this License.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+2. Grant of Copyright License. Licensor hereby grants to Licensee a
+    worldwide, royalty-free, non-exclusive license to:
+    a) reproduce the Original Work,
+    b) prepare Derivative Works,
+    c) Distribute the Original Work or Derivative Works (subject to
+        Section 3 below).
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
-INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A 
-PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT 
-HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION 
-OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE 
-SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+3. Distribution Conditions. A Licensor may Distribute the Licensed
+    Work only if

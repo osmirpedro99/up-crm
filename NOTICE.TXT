@@ -1,0 +1,9 @@
+# AVISO DE ATRIBUIÇÃO E DIREITOS AUTORAIS
+
+Este software (Upper crm) é um trabalho derivado baseado no seguinte software:
+
+Nome do Produto Original: [Krayin CRM]
+Licença Original: Open Software License (OSL v. 3.0)
+Detentor do Copyright Original: Copyright (c) [Ano do Copyright Original, ex: 2010 - 2024] Webkul Software Pvt. Ltd. (ou Krayin)
+
+O código deste trabalho derivado, incluindo todas as modificações, é redistribuído sob os termos da Open Software License (OSL v. 3.0).
