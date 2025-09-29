@@ -1,59 +1,32 @@
 <p align="center">
-<a href="http://krayincrm.com"><img src="https://bagisto.com/wp-content/uploads/2021/06/bagisto-logo.png" alt="Total Downloads"></a>
+<a href="https://upperfy.com.br"><img src="https://upperfy.com.br/wp-content/uploads/2024/09/Logotipos-DVG-7-1024x1024.png" height="150px;"></a>
 </p>
-
 <p align="center">
-<a href="https://packagist.org/packages/krayin/laravel-crm"><img src="https://poser.pugx.org/krayin/laravel-crm/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/krayin/laravel-crm"><img src="https://poser.pugx.org/krayin/laravel-crm/v/stable.svg" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/krayin/laravel-crm"><img src="https://poser.pugx.org/krayin/laravel-crm/license.svg" alt="License"></a>
 </p>
 
 
-![enter image description here](https://raw.githubusercontent.com/krayin/temp-media/master/dashboard.png)
+<p align="center">
+<img src="./image.png" height="500px;" style="border-radius:10px;">
+</p>
+
 
 ## Topics
 
 1. [Introduction](#introduction)
-2. [Documentation](#documentation)
-3. [Requirements](#requirements)
-4. [Installation & Configuration](#installation-and-configuration)
-4. [Docker Installation](https://devdocs.krayincrm.com/2.0/introduction/docker.html)
-5. [License](#license)
-6. [Security Vulnerabilities](#security-vulnerabilities)
+2. [Requirements](#requirements)
+3. [Installation & Configuration](#installation-and-configuration)
+4. [License](#license)
+5. [Security Vulnerabilities](#security-vulnerabilities)
 
 ### Introduction
 
-[Krayin CRM](https://krayincrm.com) is a hand tailored CRM framework built on some of the hottest opensource technologies
-such as [Laravel](https://laravel.com) (a [PHP](https://secure.php.net/) framework) and [Vue.js](https://vuejs.org)
-a progressive Javascript framework.
+Plataforma de CRM de Código Aberto para o Seu Negócio
+O  Upper crm é a sua solução completa e gerenciada de CRM. Baseado no sólido framework Laravel (Krayin CRM), oferecemos uma plataforma robusta de Código Aberto (Open Source) com a flexibilidade do modelo Multi-Tenant.
+
+Nós cuidamos da complexidade técnica (hospedagem, segurança, backups) para que você e sua equipe possam focar apenas em construir relacionamentos com seus clientes.
 
 **Free & Opensource Laravel CRM solution for SMEs and Enterprises for complete customer lifecycle management.**
-
-**Read our documentation: [Krayin CRM Docs](https://devdocs.krayincrm.com/)**
-
-**We also have a forum for any type of concerns, feature requests, or discussions. Please visit: [Krayin CRM Forums](https://forums.krayincrm.com/)**
-
-# Visit our live [Demo](https://demo.krayincrm.com)
-
-<a href="javascript:void();">
-    <img class="flag-img" src="https://raw.githubusercontent.com/krayin/temp-media/master/visit-our-live-demo.png" alt="Chinese" width="100%">
-</a>
-
-It packs in lots of features that will allow your E-Commerce business to scale in no time:
-
--   Descriptive and Simple Admin Panel.
--   Admin Dashboard.
--   Custom Attributes.
--   Built on Modular Approach.
--   Email parsing via Sendgrid.
--   Check out [these features and more](https://krayincrm.com/features/).
-
-**For Developers**:
-Take advantage of two of the hottest frameworks used in this project -- Laravel and Vue.js -- both of which have been used in Krayin CRM.
-
-### Documentation
-
-#### Krayin Documentation [https://devdocs.krayincrm.com](https://devdocs.krayincrm.com)
 
 ### Requirements
 
@@ -67,40 +40,26 @@ Take advantage of two of the hottest frameworks used in this project -- Laravel 
 
 ### Installation and Configuration
 
-##### Execute these commands below, in order
-
-```
-composer create-project
-```
-
--   Find **.env** file in root directory and change the **APP_URL** param to your **domain**.
-
--   Also, Configure the **Mail** and **Database** parameters inside **.env** file.
-
-```
-php artisan krayin-crm:install
-```
-
-**To execute Krayin**:
-
-##### On server:
-
-Warning: Before going into production mode we recommend you uninstall developer dependencies.
-In order to do that, run the command below:
-
-> composer install --no-dev
-
-```
-Open the specified entry point in your hosts file in your browser or make an entry in hosts file if not done.
-```
-
-##### On local:
-
-```
-php artisan route:clear
-php artisan serve
-```
-
+1. Clone Repository
+2. Copy .env.example and configure 
+    - Change the **APP_URL** param to your **domain**. 
+    - Configure the **Database** parameters inside **.env** file.
+3. Create databases
+     ```
+        CREATE DATABASE IF NOT EXISTS application CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+        CREATE DATABASE IF NOT EXISTS application_testing CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+    ```
+4. Acess container and execute the next step
+5. Dependencies & configs 
+    ```
+        composer install
+        php artisan key:generate
+        php artisan optimize:clear
+        php artisan migrate:fresh --seed 
+        php artisan storage:link 
+        php artisan vendor:publish --provider='Webkul\\Core\\Providers\\CoreServiceProvider' --force 
+        php artisan optimize:clear
+    ```
 
 **How to log in as admin:**
 
@@ -110,28 +69,11 @@ php artisan serve
 email:admin@example.com
 password:admin123
 ```
-### Krayin CRM Multi Tenant SaaS
-
-[Krayin CRM Multi Tenant SaaS](https://krayincrm.com/extensions/krayin-crm-multi-tenant-saas-extension/) Krayin Multitenant SaaS is a Laravel-based CRM solution that allows multiple businesses (tenants) to use a single application instance while keeping their data isolated and secure.
-
-![enter image description here](https://raw.githubusercontent.com/krayin/temp-media/master/krayin-saas.png)
-
-### WhatsApp CRM Integration
-
-[Krayin CRM WhatsApp](https://krayincrm.com/extensions/krayin-crm-whatsapp-extension/) Extension enables the store administrator to generate leads via their WhatsApp number.
-
-![enter image description here](https://raw.githubusercontent.com/krayin/temp-media/master/krayin-crm-whatsapp-integration.png)
-
-### VoIP CRM Integration
-
-[Krayin CRM VoIP](https://krayincrm.com/extensions/krayin-crm-voip/) extension allows the user to make Trunk calls over a broadband Internet connection and the user can also perform Inbound routes.
-
-![enter image description here](https://raw.githubusercontent.com/krayin/temp-media/master/krayin-voip.png)
 
 ### License
 
-Krayin CRM is a fully open-source CRM framework which will always be free under the [MIT License](https://github.com/krayin/laravel-crm/blob/2.1/LICENSE).
+Upperfy CRM is a fully open-source CRM framework which will always be free under the [MIT License](https://github.com/krayin/laravel-crm/blob/2.1/LICENSE).
 
 ### Security Vulnerabilities
 
-Please don't disclose security vulnerabilities publicly. If you find any security vulnerability in Krayin CRM then please email us: sales@krayincrm.com.
+Please don't disclose security vulnerabilities publicly. If you find any security vulnerability in Upperfy CRM then please email us: contato@upperfy.com.br.
