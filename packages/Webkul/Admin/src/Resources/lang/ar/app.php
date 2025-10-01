@@ -329,9 +329,6 @@ return [
             ],
         ],
         'layouts' => [
-            'powered-by' => [
-                'description' => 'Powered by :krayin, an open-source project by :webkul.',
-            ],
             'header' => [
                 'mega-search' => [
                     'title' => 'البحث الشامل',
@@ -1951,7 +1948,6 @@ return [
                     'info'   => 'Update your settings here.',
                     'footer' => [
                         'info'       => 'We can configure the powered by section here.',
-                        'powered-by' => 'Powered by text editor',
                         'title'      => 'Powered by Section Configurations',
                     ],
                     'menu' => [

@@ -329,9 +329,6 @@ return [
             ],
         ],
         'layouts' => [
-            'powered-by' => [
-                'description' => ':webkul tarafından geliştirilen açık kaynaklı bir proje olan :krayin tarafından desteklenmektedir.',
-            ],
             'header' => [
                 'mega-search' => [
                     'title' => 'Mega Arama',
@@ -1951,7 +1948,6 @@ return [
                     'info'   => 'Ayarlarınızı burada güncelleyin.',
                     'footer' => [
                         'info'       => 'Powered by bölümünü burada yapılandırabiliriz.',
-                        'powered-by' => 'Powered by metin düzenleyici',
                         'title'      => 'Powered by Bölüm Yapılandırmaları',
                     ],
                     'menu' => [

@@ -329,9 +329,6 @@ return [
             ],
         ],
         'layouts' => [
-            'powered-by' => [
-                'description' => 'Được hỗ trợ bởi :krayin, một dự án mã nguồn mở được phát triển bởi :webkul.',
-            ],
             'header' => [
                 'mega-search' => [
                     'title' => 'Tìm kiếm Mega',
@@ -1951,7 +1948,6 @@ return [
                     'info'   => 'Update your settings here.',
                     'footer' => [
                         'info'       => 'We can configure the powered by section here.',
-                        'powered-by' => 'Powered by text editor',
                         'title'      => 'Powered by Section Configurations',
                     ],
                     'menu' => [
