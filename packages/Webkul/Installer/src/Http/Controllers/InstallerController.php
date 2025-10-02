@@ -134,9 +134,9 @@ class InstallerController extends Controller
     {
         $filePath = storage_path('installed');
 
-        File::put($filePath, 'Your Krayin App is Successfully Installed');
+        File::put($filePath, 'Your Upperfy App is Successfully Installed');
 
-        Event::dispatch('krayin.installed');
+        Event::dispatch('upperfy.installed');
 
         return $filePath;
     }

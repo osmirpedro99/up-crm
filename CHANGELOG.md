@@ -122,7 +122,7 @@
   
 * #2183.[fixed]. Repaired issue with email view rendering.
   
-* #2181.[fixed]. Handled installation error in `krayin/rest-api`.
+* #2181.[fixed]. Handled installation error in `upperfy/rest-api`.
   
 * #2180.[fixed]. Fixed database migration failure during installation.
   
@@ -178,7 +178,7 @@
 
 * #1972[fixed] Emails Can Be Sent from Draft Without an Email Address.
 
-* #1971[fixed] "From" Entry Missing in Sent Mails When Sending Emails from Krayin CRM .
+* #1971[fixed] "From" Entry Missing in Sent Mails When Sending Emails from Upperfy CRM .
 
 * #1970[fixed] Save Draft button visibility issue in dark theme.
 
@@ -332,7 +332,7 @@
 
 * #1701[fixed] XSS vulnerability at Note function. 
 
-* #1691[fixed] Mails details are not stored in Activities and changelog in ech section of Krayin.
+* #1691[fixed] Mails details are not stored in Activities and changelog in ech section of Upperfy.
 
 * #1690[fixed] Compose Mail, Mail To Entry issue is appearing. This issue is appearing in almost all mail related section. 
 
@@ -352,7 +352,7 @@
 
 * #1598[fixed] Translation Variables Displayed Instead of Text in Email Notifications
 
-* #1595[fixed] REST API: ReflectionException "Class 'Webkul\Attribute\Http\Requests\AttributeForm' does not exist" in Krayin CRM v2.0.1 Bug
+* #1595[fixed] REST API: ReflectionException "Class 'Webkul\Attribute\Http\Requests\AttributeForm' does not exist" in Upperfy CRM v2.0.1 Bug
 
 * #1961[fixed] Changing activity schedule from / to date not saving
 
@@ -424,9 +424,9 @@ Added support for Brazilian Portuguese (PT_BR) Language.
 
 * #1636[fixed] Quote pdf download error fix. 
 
-* #1594[fixed] Stage Sorting in Pipeline not working - Krayin CRM Version. 
+* #1594[fixed] Stage Sorting in Pipeline not working - Upperfy CRM Version. 
 
-* #1594[fixed] Stage Sorting in Pipeline not working - Krayin CRM Version. 
+* #1594[fixed] Stage Sorting in Pipeline not working - Upperfy CRM Version. 
 
 ## **v2.0.2 (24th of September 2024)** - *Release*
 
@@ -624,7 +624,7 @@ Added support for Brazilian Portuguese (PT_BR) Language.
 
 * #1437[fixed] Getting Console Error when we Edit SKU and Inventory in Product View Page. Failed to load resource: the server responded with a status of 405 (Method Not Allowed)
 
-* #1438[fixed] Favicon Icon for Krayin must be available.
+* #1438[fixed] Favicon Icon for Upperfy must be available.
 
 * #1445[fixed] Getting Exceptional Error when we click on the Product Number in Warehouse DataGrid.
 

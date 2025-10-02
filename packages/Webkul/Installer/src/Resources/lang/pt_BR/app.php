@@ -120,7 +120,7 @@ return [
         'index' => [
             'create-administrator' => [
                 'admin'            => 'Administrador',
-                'krayin'           => 'Krayin',
+                'upperfy'           => 'Upperfy',
                 'confirm-password' => 'Confirmar Senha',
                 'email'            => 'E-mail',
                 'email-address'    => 'admin@example.com',
@@ -135,7 +135,7 @@ return [
                 'application-name'            => 'Nome do Aplicativo',
                 'argentine-peso'              => 'Peso Argentino (ARS)',
                 'australian-dollar'           => 'Dólar Australiano (AUD)',
-                'krayin'                      => 'Krayin',
+                'upperfy'                      => 'Upperfy',
                 'bangladeshi-taka'            => 'Taka de Bangladesh (BDT)',
                 'brazilian-real'              => 'Real Brasileiro (BRL)',
                 'british-pound-sterling'      => 'Libra Esterlina (GBP)',
@@ -168,18 +168,18 @@ return [
             ],
 
             'installation-processing' => [
-                'krayin'       => 'Instalação do Krayin',
-                'krayin-info'  => 'Criando as tabelas do banco de dados, isso pode levar alguns momentos',
+                'upperfy'       => 'Instalação do Upperfy',
+                'upperfy-info'  => 'Criando as tabelas do banco de dados, isso pode levar alguns momentos',
                 'title'        => 'Instalação',
             ],
 
             'installation-completed' => [
                 'admin-panel'                => 'Painel de Administração',
-                'krayin-forums'              => 'Fórum Krayin',
+                'upperfy-forums'              => 'Fórum Upperfy',
                 'customer-panel'             => 'Painel do Cliente',
-                'explore-krayin-extensions'  => 'Explorar Extensões Krayin',
+                'explore-upperfy-extensions'  => 'Explorar Extensões Upperfy',
                 'title'                      => 'Instalação Concluída',
-                'title-info'                 => 'Krayin foi instalado com sucesso no seu sistema.',
+                'title-info'                 => 'Upperfy foi instalado com sucesso no seu sistema.',
             ],
 
             'ready-for-installation' => [
@@ -193,8 +193,8 @@ return [
                 'locale'        => 'Idioma',
                 'main'          => 'Início',
                 'select-locale' => 'Selecionar Idioma',
-                'title'         => 'Instalação do Krayin',
-                'welcome-title' => 'Bem-vindo ao Krayin',
+                'title'         => 'Instalação do Upperfy',
+                'welcome-title' => 'Bem-vindo ao Upperfy',
             ],
 
             'server-requirements' => [
@@ -203,15 +203,15 @@ return [
             ],
 
             'back'                     => 'Voltar',
-            'krayin'                   => 'Krayin',
-            'krayin-info'              => 'um projeto comunitário de',
-            'krayin-logo'              => 'Logotipo Krayin',
+            'upperfy'                   => 'Upperfy',
+            'upperfy-info'              => 'um projeto comunitário de',
+            'upperfy-logo'              => 'Logotipo Upperfy',
             'continue'                 => 'Continuar',
-            'installation-description' => 'A instalação do Krayin geralmente envolve várias etapas. Aqui está uma visão geral do processo de instalação do Krayin',
+            'installation-description' => 'A instalação do Upperfy geralmente envolve várias etapas. Aqui está uma visão geral do processo de instalação do Upperfy',
             'installation-info'        => 'Estamos felizes em ver você aqui!',
             'installation-title'       => 'Bem-vindo à Instalação',
             'installation-wizard'      => 'Assistente de Instalação - Idioma',
-            'title'                    => 'Instalador do Krayin',
+            'title'                    => 'Instalador do Upperfy',
             'webkul'                   => 'Webkul',
         ],
     ],

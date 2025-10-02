@@ -120,7 +120,7 @@ return [
         'index' => [
             'create-administrator' => [
                 'admin'            => 'Administrador',
-                'krayin'           => 'Krayin',
+                'upperfy'           => 'Upperfy',
                 'confirm-password' => 'Confirmar Senha',
                 'email'            => 'Email',
                 'email-address'    => 'admin@exemplo.com',
@@ -135,7 +135,7 @@ return [
                 'application-name'            => 'Nome da Aplicação',
                 'argentine-peso'              => 'Peso Argentino (ARS)',
                 'australian-dollar'           => 'Dólar Australiano (AUD)',
-                'krayin'                      => 'Krayin',
+                'upperfy'                      => 'Upperfy',
                 'bangladeshi-taka'            => 'Taka de Bangladesh (BDT)',
                 'brazilian-real'              => 'Real Brasileiro (BRL)',
                 'british-pound-sterling'      => 'Libra Esterlina (GBP)',
@@ -218,24 +218,24 @@ return [
             ],
 
             'installation-processing' => [
-                'krayin'       => 'Instalação do Krayin',
-                'krayin-info'  => 'Criando as tabelas do banco de dados, isso pode levar alguns momentos',
+                'upperfy'       => 'Instalação do Upperfy',
+                'upperfy-info'  => 'Criando as tabelas do banco de dados, isso pode levar alguns momentos',
                 'title'        => 'Instalação',
             ],
 
             'installation-completed' => [
                 'admin-panel'                => 'Painel de Administração',
-                'krayin-forums'              => 'Fórum do Krayin',
+                'upperfy-forums'              => 'Fórum do Upperfy',
                 'customer-panel'             => 'Painel do Cliente',
-                'explore-krayin-extensions'  => 'Explorar Extensões do Krayin',
+                'explore-upperfy-extensions'  => 'Explorar Extensões do Upperfy',
                 'title'                      => 'Instalação Concluída',
-                'title-info'                 => 'O Krayin foi instalado com sucesso no seu sistema.',
+                'title-info'                 => 'O Upperfy foi instalado com sucesso no seu sistema.',
             ],
 
             'ready-for-installation' => [
                 'create-databsae-table'   => 'Criar as tabelas do banco de dados',
                 'install'                 => 'Instalar',
-                'install-info'            => 'Krayin para Instalação',
+                'install-info'            => 'Upperfy para Instalação',
                 'install-info-button'     => 'Clique no botão abaixo para',
                 'populate-database-table' => 'Preencher as tabelas do banco de dados',
                 'start-installation'      => 'Iniciar Instalação',
@@ -246,8 +246,8 @@ return [
                 'locale'        => 'Localidade',
                 'main'          => 'Início',
                 'select-locale' => 'Selecionar Localidade',
-                'title'         => 'Instalação do Krayin',
-                'welcome-title' => 'Bem-vindo ao Krayin',
+                'title'         => 'Instalação do Upperfy',
+                'welcome-title' => 'Bem-vindo ao Upperfy',
             ],
 
             'server-requirements' => [
@@ -274,15 +274,15 @@ return [
             ],
 
             'back'                     => 'Voltar',
-            'krayin'                   => 'Krayin',
-            'krayin-info'              => 'um Projeto Comunitário por',
-            'krayin-logo'              => 'Logotipo Krayin',
+            'upperfy'                   => 'Upperfy',
+            'upperfy-info'              => 'um Projeto Comunitário por',
+            'upperfy-logo'              => 'Logotipo Upperfy',
             'continue'                 => 'Continuar',
-            'installation-description' => 'A instalação do Krayin geralmente envolve várias etapas. Aqui está um resumo do processo de instalação do Krayin.',
+            'installation-description' => 'A instalação do Upperfy geralmente envolve várias etapas. Aqui está um resumo do processo de instalação do Upperfy.',
             'installation-info'        => 'Estamos felizes em vê-lo aqui!',
             'installation-title'       => 'Bem-vindo à Instalação',
             'installation-wizard'      => 'Assistente de Instalação - Idioma',
-            'title'                    => 'Instalador do Krayin',
+            'title'                    => 'Instalador do Upperfy',
             'webkul'                   => 'Webkul',
         ],
     ],

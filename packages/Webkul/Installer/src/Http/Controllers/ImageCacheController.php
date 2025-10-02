@@ -19,7 +19,7 @@ class ImageCacheController
      *
      * @var string
      */
-    const KRAYIN_LOGO = 'https://updates.krayincrm.com/krayin.png';
+    const UPPERFY_LOGO = 'https://upperfy.com.br/wp-content/uploads/2024/08/Simbolo-Upperfy-TP-e1727433743901.png';
 
     /**
      * Get HTTP response of template applied image file
@@ -30,8 +30,8 @@ class ImageCacheController
     public function getImage($filename)
     {
         try {
-            $content = Cache::remember('krayin-logo', 10080, function () {
-                return $this->getImageFromUrl(self::KRAYIN_LOGO);
+            $content = Cache::remember('upperfy-logo', 10080, function () {
+                return $this->getImageFromUrl(self::UPPERFY_LOGO);
             });
         } catch (\Exception $e) {
             $content = '';

@@ -120,7 +120,7 @@ return [
         'index' => [
             'create-administrator' => [
                 'admin'            => 'Admin',
-                'krayin'           => 'Krayin',
+                'upperfy'           => 'Upperfy',
                 'confirm-password' => 'Confirm Password',
                 'email'            => 'Email',
                 'email-address'    => 'admin@example.com',
@@ -135,7 +135,7 @@ return [
                 'application-name'            => 'Application Name',
                 'argentine-peso'              => 'Argentine Peso (ARS)',
                 'australian-dollar'           => 'Australian Dollar (AUD)',
-                'krayin'                      => 'Krayin',
+                'upperfy'                      => 'Upperfy',
                 'bangladeshi-taka'            => 'Bangladeshi Taka (BDT)',
                 'brazilian-real'              => 'Brazilian Real (BRL)',
                 'british-pound-sterling'      => 'British Pound Sterling (GBP)',
@@ -218,24 +218,24 @@ return [
             ],
 
             'installation-processing' => [
-                'krayin'       => 'Installation Krayin',
-                'krayin-info'  => 'Creating the database tables, this can take a few moments',
+                'upperfy'       => 'Installation Upperfy',
+                'upperfy-info'  => 'Creating the database tables, this can take a few moments',
                 'title'        => 'Installation',
             ],
 
             'installation-completed' => [
                 'admin-panel'                => 'Admin Panel',
-                'krayin-forums'              => 'Krayin Forum',
+                'upperfy-forums'              => 'Upperfy Forum',
                 'customer-panel'             => 'Customer Panel',
-                'explore-krayin-extensions'  => 'Explore Krayin Extension',
+                'explore-upperfy-extensions'  => 'Explore Upperfy Extension',
                 'title'                      => 'Installation Completed',
-                'title-info'                 => 'Krayin is Successfully installed on your system.',
+                'title-info'                 => 'Upperfy is Successfully installed on your system.',
             ],
 
             'ready-for-installation' => [
                 'create-databsae-table'   => 'Create the database table',
                 'install'                 => 'Installation',
-                'install-info'            => 'Krayin For Installation',
+                'install-info'            => 'Upperfy For Installation',
                 'install-info-button'     => 'Click the button below to',
                 'populate-database-table' => 'Populate the database tables',
                 'start-installation'      => 'Start Installation',
@@ -246,8 +246,8 @@ return [
                 'locale'        => 'Locale',
                 'main'          => 'Start',
                 'select-locale' => 'Select Locale',
-                'title'         => 'Your Krayin install',
-                'welcome-title' => 'Welcome to Krayin',
+                'title'         => 'Your Upperfy install',
+                'welcome-title' => 'Welcome to Upperfy',
             ],
 
             'server-requirements' => [
@@ -274,15 +274,15 @@ return [
             ],
 
             'back'                     => 'Back',
-            'krayin'                   => 'Krayin',
-            'krayin-info'              => 'a Community Project by',
-            'krayin-logo'              => 'Krayin Logo',
+            'upperfy'                   => 'Upperfy',
+            'upperfy-info'              => 'a Community Project by',
+            'upperfy-logo'              => 'Upperfy Logo',
             'continue'                 => 'Continue',
-            'installation-description' => 'Krayin installation typically involves several steps. Here\'s a general outline of the installation process for Krayin',
+            'installation-description' => 'Upperfy installation typically involves several steps. Here\'s a general outline of the installation process for Upperfy',
             'installation-info'        => 'We are happy to see you here!',
             'installation-title'       => 'Welcome to Installation',
             'installation-wizard'      => 'Installation Wizard language',
-            'title'                    => 'Krayin Installer',
+            'title'                    => 'Upperfy Installer',
             'webkul'                   => 'Webkul',
         ],
     ],
