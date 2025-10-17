@@ -333,7 +333,7 @@ return [
                 'mega-search' => [
                     'title' => 'Búsqueda Mega',
                     'tabs'  => [
-                        'leads'    => 'Oportunidades',
+                        'leads'    => 'Leads',
                         'quotes'   => 'Cotizaciones',
                         'persons'  => 'Personas',
                         'products' => 'Productos',
