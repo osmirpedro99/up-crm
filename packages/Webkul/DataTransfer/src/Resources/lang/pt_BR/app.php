@@ -25,7 +25,7 @@ return [
         ],
 
         'leads' => [
-            'title' => 'Oportunidades',
+            'title' => 'Leads',
 
             'validation' => [
                 'errors' => [
