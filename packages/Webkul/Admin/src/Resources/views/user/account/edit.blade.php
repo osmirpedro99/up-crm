@@ -63,7 +63,7 @@
                     </p>
 
                     <!-- Image -->
-                    <x-admin::form.control-group>
+                    {{-- <x-admin::form.control-group>
                         <x-admin::media.images
                             name="image"
                             :uploaded-images="$user->image ? [['id' => 'image', 'url' => $user->image_url]] : []"
@@ -72,7 +72,7 @@
 
                     <p class="mb-4 text-xs text-gray-600 dark:text-gray-300">
                         @lang('admin::app.account.edit.upload-image-info')
-                    </p>
+                    </p> --}}
 
                     <!-- Name -->
                     <x-admin::form.control-group>
